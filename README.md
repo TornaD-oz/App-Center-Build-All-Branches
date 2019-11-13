@@ -20,11 +20,11 @@ The App Center token with sufficient permissions to build and query the branches
 Returns a DataTable object with a report on the branches build status.
 
 ## Examples
-*PS> .\AppCenterApi.ps1 yourUsername applicationName appCenterToken*
+*PS> .\AppCenterBuildAllBranches.ps1 yourUsername applicationName appCenterToken*
 
 You can pass the desired parameters to the script, or enter them when the script is launched.
 
-*PS> $report = .\AppCenterApi.ps1*
+*PS> $report = .\AppCenterBuildAllBranches.ps1*
 
 Pass the script output to a variable to receive the table with the report.
 
